@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-template-rows: minmax(100px, auto) 60px auto minmax(100px, auto);
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  grid-column: 1/-1;
+  line-height: 100px;
+  background-color: rgb(255, 253, 240);
+  font-family: "Jua", sans-serif;
+}
+
+aside {
+  font-family: "Jua", sans-serif;
+}
+
+nav {
+  grid-column: 1/-1;
+  margin-top: 18.7px;
+  /* line-height: 60px; */
+}
+
+aside,
+nav {
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 10px;
+  background-color: bisque;
+  padding: 3px;
+  border-radius: 15%;
+}
+
+section li {
+  list-style-type: none;
+}
+
+section {
+  margin: 15px;
+}
+
+aside {
+  background-image: url(https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODAyMDhfMTAy%2FMDAxNTE4MDc5NDQwMTg1.V_GCO-tKZ4zaGSR8R6hS1O4TIWA6VNojk4E20o0L9eIg.FABkc53p4U0NrsNtIZwXtFaAo3Qn62OfNLKRg_nN1SYg.JPEG.copymach%2Fpic_006.jpg&type=sc960_832);
+  background-size: cover;
+}
+
+main {
+  background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F40%2F47%2F1e%2F40471ec847bef7d51fa032359b3547be.jpg&type=sc960_832);
+  background-size: contain;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  grid-column: 1/-1;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+tr {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #e6f1ff;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f7ff;
+}
+
+thead th {
+  background-color: #f0f7ff;
+}
