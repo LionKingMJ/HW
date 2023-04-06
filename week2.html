@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>자기소개</title>
+  <link rel="stylesheet" href="week2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <h1>자기소개</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#인적사항" class="footerMenu">인적사항</a></li>
+      <li><a href="#좋아하는 것" class="footerMenu">좋아하는 것</a></li>
+      <li><a href="#일대기" class="footerMenu">일대기</a></li>
+    </ul>
+  </nav>
+
+  <aside>
+
+    <section>
+      <h3 id="깃허브">깃허브</h3>
+      <a href="https://github.com/haejun1">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png" alt="" width="40px">
+      </a>
+    </section>
+
+    <section>
+      <h3 id="인스타">인스타</h3>
+      <a href="https://www.instagram.com/bk_jun03/">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+          alt="" width="40px">
+      </a>
+    </section>
+
+    <section>
+      <h3 id="유튜브">유튜브</h3>
+      <a href="https://www.youtube.com/@user-rl3cc2wd8d/featured">
+        <img src="https://i.pinimg.com/originals/24/24/12/242412a32af5cca3cb114cfee0cd3d8b.png" alt="" width="40px">
+      </a>
+    </section>
+
+  </aside>
+
+  <main>
+
+    <section class="sec-1">
+      <h3 id="인적사항">인적사항</h3>
+      <p>이름 : 백해준</p>
+      <p>나이 : 21</p>
+      <p>성별 : 남</p>
+      <p>학과 : 명지대학교 데이터테크놀로지학과</p>
+    </section>
+
+    <section class="sec-2">
+      <h3 id="좋아하는 것">좋아하는 것</h3>
+      <ul>
+        <li>가수 : 장범준</li>
+        <li>최근 듣는 노래 3개
+          <select>
+            <option value="#">벚꽃엔딩</option>
+            <option value="#">봄to러브</option>
+            <option value="#">그대에게</option>
+          </select>
+        </li>
+        <li>운동 : 농구</li>
+        <li>음식 : 바지락칼국수</li>
+      </ul>
+    </section>
+
+    <section class="sec-3">
+      <h3 id="일대기">
+        일대기
+      </h3>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>초등학생</th>
+            <th>중학생</th>
+            <th>고등학생</th>
+            <th>대학생</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>장래희망</th>
+            <td>펀드매니저</td>
+            <td>백수</td>
+            <td>증강현실 전문가</td>
+            <td>개발자</td>
+          </tr>
+          <tr>
+            <th>취미</th>
+            <td>마인크래프트</td>
+            <td>춤</td>
+            <td>장범준</td>
+            <td>여행</td>
+          </tr>
+          <tr>
+            <th>거주지</th>
+            <td>은평구</td>
+            <td>은평구</td>
+            <td>은평구</td>
+            <td>은평구</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="sec-4">
+      <br><br><br><br><br><br><br><br><br><br>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p class="footerMenu">공지사항</p>
+    <p class="footerMenu">오시는길</p>
+    <p class="footerMenu">이용약관</p>
+    <p class="footerMenu">고객센터</p>
+    <p class="footerMenu">사업자번호</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".footerMenu").mouseover(function () {
+        $(this).css("font-weight", "bold");
+      });
+      $(".footerMenu").mouseout(function () {
+        $(this).css("font-weight", "normal");
+      });
+    });
+  </script>
+
+</body>
+
+</html>
