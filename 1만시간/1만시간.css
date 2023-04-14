@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  background-color: #3a4ca8;
+  font-family: "GmarketSansMedium";
+  text-align: center;
+  color: white;
+}
+
+.연습은 {
+  color: #f5e04b;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+.여러분 {
+  color: white;
+  margin: 50px 0;
+  position: relative;
+  display: inline-block;
+}
+
+.따옴표 {
+  position: absolute;
+  left: 50%;
+  margin-left: -250px;
+}
+
+.따옴표 img {
+  height: 30px;
+  margin-top: 70px;
+  width: 500px;
+}
+
+.다짐 {
+  font-size: large;
+  margin-top: 50px;
+}
+
+input {
+  height: 40px;
+  padding: 5px 100px 5px 5px;
+  text-align: left;
+  border: 1px solid #ededed;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #ededed;
+  font-size: large;
+  margin: 10px;
+  color: black;
+}
+
+input::placeholder {
+  color: #999999;
+}
+
+.보이니 {
+  font-size: x-small;
+  margin: 100px 0;
+}
+
+.시계랑전문가되려면 {
+  position: relative;
+  margin-top: 50px;
+}
+
+.시계랑전문가되려면 img {
+  width: 230px;
+  height: 230px;
+}
+
+.전문가되려면 {
+  position: absolute;
+  top: 55px;
+  left: 50%;
+  margin-left: -225px;
+}
+
+.전문가되려면 img {
+  width: 450px;
+  height: 110px;
+}
+
+.될까 {
+  width: 400px;
+  border: 1px solid #fff420;
+  border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+  background-color: #fff420;
+  margin: 100px 0;
+  padding-left: 30px;
+  color: #3a4ca8;
+  font-weight: bold;
+  font-size: large;
+  height: 40px;
+  cursor: pointer;
+}
+
+.클릭 {
+  display: inline-block;
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.클릭 img {
+  width: 40px;
+  height: 40px;
+}
+
+#다짐제출 {
+  margin-bottom: 100px;
+}
+
+.훈련go {
+  width: 250px;
+  border: 1px solid #fff420;
+  border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+  background-color: #fff420;
+  padding-left: 28px;
+  color: #3a4ca8;
+  font-weight: bold;
+  height: 40px;
+  cursor: pointer;
+}
+
+.공유하기 {
+  width: 100px;
+  border: 1px solid #ededed;
+  border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+  background-color: #ededed;
+  padding-left: 28px;
+  color: #3a4ca8;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.훈련go누를시 {
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: auto;
+  top: 650px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+.화이팅 {
+  color: purple;
+  font-size: 70px;
+  background-color: white;
+  font-family: "OTEnjoystoriesBA";
+  margin-bottom: -10px;
+}
+
+.응원 {
+  color: purple;
+  font-size: 25px;
+  background-color: white;
+  font-family: "OTEnjoystoriesBA";
+}
+
+.멋사로고 {
+  display: block;
+  height: 180px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.진짜훈련 {
+  width: 350px;
+  border: 1px solid #fff420;
+  border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+  background-color: #fff420;
+  padding-left: 20px;
+  color: #3a4ca8;
+  font-weight: bold;
+  height: 40px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px -10px black;
+}
+
+.훈련go공유,
+.훈련go누를시 {
+  display: none;
+}
