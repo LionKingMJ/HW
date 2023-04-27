@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한 분야의 전문가가 되려면</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/x-icon" href="img\favicon.ico">
+    <link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet">
+    <link href="https://webfontworld.github.io/tvn/EnjoyStories.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Nanum+Gothic:wght@800&family=Secular+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <body bgcolor="#3A4CA8"></body>
+    <div>
+        <div style= "text-align: center;"><img src="img\clock.png" width="250px" height="250px" ></div>
+        <div class="text"style= "text-align: center;"><img src="img\text.png" width="auto" height="150px" ></div>
+        <div class="practice">
+            "연습은 어제의 당신보다 당신을 더 낫게 만든다."
+        </div>
+        <div class="babylion">
+            <b>아기사자 여러분</b>은<br>
+            어떤 분야의 전문가가 되기 위해서는<br>
+            최소한 1만 시간의 훈련이 필요합니다.<br>
+        </div>
+        <div class="quotes"style= "text-align: center;"><img src="img\quotes.png" width="auto" height="40px" ></div>
+
+        <div class="pro">
+        <P>
+            나는  <input type ="text" id="subject" placeholder="예)프로그래밍"/> 전문가가 될 것이다.
+        </P>
+        그래서 앞으로 매일 하루에   
+        <input type ="number" id="study-hours" placeholder="예)5"/> 시간씩 훈련할 것이다.
+        </div>
+       
+        <div style="text-align: center;">
+            <button class="time_button" type="button" onclick ="cal()">
+                <b>나는 며칠 동안 훈련을 해야 전문가가 될까?</b>
+            </button>
+        </div>
+         
+        <img id = "click" src="img\click.png" width="60px" height="60px" >
+
+        <div id="ShowInfo">
+            <div id="ShowInfo_1" >
+                당신은 <span id='r_subject'></span> 전문가가 되기 위해서 <br>
+            </div>
+            <div id="ShowInfo_2" >
+                대략 <span id='r_date'></span >일 이상 훈련하셔야 합니다!:) <br>
+            </div>
+            <div class="Share">
+                <button class="go_button" type="button" onclick="showPopup()">
+                    <b>훈련하러가기 GO!GO!</b>
+                </button>
+                <button class="share_button" type="button" onclick="clip()">
+                    <b>공유하기</b>
+                </button>
+            </div>
+
+            	<!-- 레이어팝업 -->
+            <div id="popup">
+                <div id="popup-content">
+                    <div class="F1">
+                        화이팅!!♥ ♥ ♥ 
+                    </div>
+                    <div class="F2">
+                        당신의 꿈을 응원합니다! 
+                    </div>
+                    <div class="mju_mark"style= "text-align: center;"><img src="img/mju_mark.png" width="auto" height="200px" ></div>
+                    <button id="close-button">
+                        <b>종료하고 진짜 훈련하러 가기 GO!GO!</b>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+   
+        <div class="ll"> ※본 서비스 내 이미지 및 콘텐츠의 저작권은 멋쟁이사자처럼_명지대(서울)에 있습니다.<br>
+        수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.</div>
+    <script src="main.js"></script>
+</body>
+
+</html>
