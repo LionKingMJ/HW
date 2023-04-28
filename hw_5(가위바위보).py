@@ -2,7 +2,6 @@ import os
 import sys
 import random
 
-# Example 4
 class Play:
 	# 초기화
 	@classmethod
@@ -10,7 +9,6 @@ class Play:
 
 		cls.game(args)
 
-	# 4 - 3
 	@classmethod
 	def game(cls, args):
 		nWinCount = 0
