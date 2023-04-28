@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #3A4CA8;
+}
+.head{
+    margin: 10px 0 20px;
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+.clock{
+    position: relative;
+}
+.text{
+    margin-top:37.5px;
+    position: absolute;
+}
+.practice{
+    color:#FFC90E;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.quotes{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.quote{
+    margin: 30px 0;
+    position: relative;
+}
+.lion{
+    margin:20px 0;
+    position: absolute;
+    text-align: center;
+    font-size: 10px;
+    color:white;
+}
+.lion > span{
+    font-weight: 600;
+}
+.time{
+margin: 10px 0 ;
+}
+.time h1{
+    font-size: 10px;
+    color:white;
+}
+.im{
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.every{
+    margin:10px 0;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width:100px; height: 30px;
+    margin: 0 10px;
+    border-radius: 5px 5px;
+    border-style: none;
+}
+form{
+    border-radius: 5;
+}
+.how{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+    zoom:0.7;
+}
+.yellow:hover{
+    color: white;
+}
+.yellow{
+    width:350px;
+    height: 45px;
+    padding:10px;
+    text-align: center;
+    background-color: #FCEE21;
+    border-radius:50px; 
+    color:#3A4CA8;
+    font-weight: 600;
+}
+.service{
+    text-align: center;
+    font-size: 10px;
+    color:white;
+    zoom:0.7;
+}
+
+.active{
+    width:30px;
+}
